@@ -1,0 +1,14 @@
+import 'dart:io';
+import 'dart:math';
+
+void main() {
+   stdout.write('Enter your base:');
+   double base = double.parse(stdin.readLineSync()!);
+   stdout.write('Enter your exponent');
+   double exponent = double.parse(stdin.readLineSync()!);
+
+   num result = pow(base, exponent);
+   //pow is used for power
+
+   print("$base exponent $exponent is $result");
+}
