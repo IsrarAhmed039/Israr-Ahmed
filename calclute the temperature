@@ -1,0 +1,8 @@
+import 'dart:io';
+ void main(){
+   stdout.write('please Enter your temperature :');
+   double celsiusTemp = double.parse(stdin.readLineSync()!);
+   double ftemp = celsiusTemp*9/5+32;
+   print('tempperature in fahrenheit is = $ftemp');
+
+ }
