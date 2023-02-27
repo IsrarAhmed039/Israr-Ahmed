@@ -1,0 +1,10 @@
+void main() {
+  print("Enter Base of Triangle");
+  String b = stdin.readLineSync() as String;
+  double base = double.parse(b);
+  print("Enter Height of Triangle");
+  String h = stdin.readLineSync() as String;
+  double height = double.parse(h);
+  var a = (base * height) / 2;
+  print("Area of Triangle = $a");
+}
