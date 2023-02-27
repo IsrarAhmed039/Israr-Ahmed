@@ -1,0 +1,15 @@
+import 'dart:io';
+import 'dart:math';
+
+void main() {
+
+//going to findout Volume and Surface Area of Sphere
+
+  print("Enter volume and surface area of sphere");
+  
+  String radius = stdin.readLineSync() as String;
+  var r = double.parse(radius);
+  var volume = (4 / 3) * pi * pow(r, 3);
+  var sphere = 4 * pi * pow(r, 2);
+  print("$r Volume and Area of the Sphere is= $volume  $sphere");
+}
